@@ -12,8 +12,8 @@
             <Setter Property="FontSize" Value="32" />
             <Setter Property="Foreground" Value="White" />
         </Style>
-        <Style TargetType="Grid">
+        <!-- <Style TargetType="Grid">
             <Setter Property="Background" Value="Black" />
-        </Style>
+        </Style> -->
     </Application.Resources>
 </Application>
