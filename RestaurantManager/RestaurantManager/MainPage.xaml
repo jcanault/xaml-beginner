@@ -6,7 +6,9 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
-
+    
+    <!-- default style for TextBlocks and Buttons define in App.xaml -->
+    
     <Grid Background="Black">
         <Grid.RowDefinitions>
             <RowDefinition Height="0.4*" />
@@ -18,11 +20,11 @@
             <ColumnDefinition Width="0.5*" />
         </Grid.ColumnDefinitions>
         
-        <TextBlock Grid.Row="0" Grid.ColumnSpan="2" Text="Restaurant Manager" HorizontalAlignment="Center" VerticalAlignment="Bottom" FontSize="50" FontWeight="Bold" />
+        <TextBlock Grid.Row="0" Grid.ColumnSpan="2" Text="Restaurant Manager" HorizontalAlignment="Center" VerticalAlignment="Bottom" FontWeight="Bold" />
         
-        <TextBlock Grid.Row="1" Grid.ColumnSpan="2" Text="Internal Test Version" HorizontalAlignment="Center" VerticalAlignment="Bottom"/>
+        <TextBlock Grid.Row="1" Grid.ColumnSpan="2" FontSize="18" Text="Internal Test Version" HorizontalAlignment="Center" VerticalAlignment="Bottom"/>
         
-        <Button x:Name="ViewOrderButton" Grid.Row="2" Grid.Column="0" Content="Go to Orders View" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="43" Click="ViewOrderButton_Click"/>
-        <Button x:Name="SubmitOrderButton" Grid.Row="2" Grid.Column="1" Content="Submit Order" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="43" Click="SubmitOrderButton_Click"/>
+        <Button x:Name="ViewOrderButton" Grid.Row="2" Grid.Column="0" Content="Go to Orders View" HorizontalAlignment="Center" VerticalAlignment="Center" Click="ViewOrderButton_Click"/>
+        <Button x:Name="SubmitOrderButton" Grid.Row="2" Grid.Column="1" Content="Submit Order" HorizontalAlignment="Center" VerticalAlignment="Center" Click="SubmitOrderButton_Click"/>
     </Grid>
 </Page>
